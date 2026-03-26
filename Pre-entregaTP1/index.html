@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Preentrega TP1</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        h1, h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .grafico {
+            margin: 30px 0;
+            width: 100%;
+        }
+        .descripcion {
+            margin-bottom: 50px;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
 
+    <h1>Posibles gráficos TP1</h1>
+
+    <h2>Gráfico de Rawgraph</h2>
+    <div class="grafico">
+        <img src="viz (2).svg" alt="Gráfico Rawgraph" style="width:100%;">
+    </div>
+    <p class="descripcion">
+        Este gráfico me permite ver como son los flujos de los diferentes medios de pago. Cuanto más uso un medio de pago, más ancho son las bandas.
+    </p>
+
+    <hr>
+
+    <h2>Opciones de gráficos - Flourish</h2>
+    
+    <h3>Bar chart race - Gastos por categoría a lo largo de los meses</h3>
+    <div class="grafico">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28167286">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+        </div>
+    </div>
+    <p class="descripcion">
+        Este gráfico me permite ver si a lo largo de los distintos meses mis gastos principales siempre son de la misma categoria o si van cambiando por mes . Además puedo ver el flujo de gastos en un mes en partícular, viendo como gasto más en una categoría que en otra. Es decir, por ahí en el mes de enero arranco con mucho gasto en comida y despúes termina siendo más alto el gasto en ropa.
+    </p>
+
+    <h3>Calendario de gastos (heatmap)</h3>
+    <div class="grafico">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28167857">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+        </div>
+    </div>
+    <p class="descripcion">
+        Esté gráfico me permite ver cada gasto que hago por día en el mes, permitiendo identificar si el gasto fue alto, medio o bajo. Pudiendo también ver el monto total por día.
+    </p>
+
+    <hr>
+
+    <h2>Gráfico de Datawrapper</h2>
+    <div class="grafico">
+        <iframe title="Gastos por Categoría" aria-label="Donut Chart" id="datawrapper-chart-cV3Al" src="https://datawrapper.dwcdn.net/cV3Al/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="557"></iframe>
+        <script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+    </div>
+    <p class="descripcion">
+        Este es el  típico gráfico de dona que muestra cuanto de mi total gastos corresponde a cada categoría.
+    </p>
+
+</body>
